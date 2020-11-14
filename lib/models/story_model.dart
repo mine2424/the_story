@@ -1,7 +1,6 @@
 import 'package:meta/meta.dart';
 import 'package:the_story/models/user_model.dart';
 
-
 enum MediaType {
   image,
   video,

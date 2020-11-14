@@ -1,6 +1,6 @@
-import 'package:camera/camera.dart';
+
 import 'package:flutter/material.dart';
-import 'package:the_story/views/screen/home_section.dart';
+import 'package:the_story/home_selection.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,6 +17,6 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
-        home: HomeSection());
+        home: HomeSelection());
   }
 }
